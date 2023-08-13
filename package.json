@@ -15,5 +15,10 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.8.0"
+  },
+  "packageManager": "yarn@3.6.1",
+  "peerDependencies": {
+    "vite": "*",
+    "webpack": "*"
   }
 }
