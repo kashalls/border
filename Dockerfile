@@ -9,9 +9,8 @@ COPY --chown=node:node yarn.lock .
 COPY --chown=node:node package.json .
 COPY --chown=node:node .yarnrc.yml .
 COPY --chown=node:node .yarn/ .yarn/
-
-COPY --chown=node:node .pnp.cjs .
-COPY --chown=node:node .pnp.loader.mjs .
+COPY --chown=node:node nuxt.config.ts .
+COPY --chown=node:node tsconfig.json .
 
 # Copy over runtime
 COPY --chown=node:node src/ src/
