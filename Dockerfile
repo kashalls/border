@@ -16,8 +16,6 @@ COPY --chown=node:node .pnp.loader.mjs .
 # Copy over runtime
 COPY --chown=node:node src/ src/
 
-RUN "yarn build"
-
 # ⚙️ Configure the default command
 USER node
-CMD ["node", ".output/server/index.mjs"]
+CMD ["yarn", "run", "build", "&&", "node", ".output/server/index.mjs"]
