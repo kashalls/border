@@ -17,3 +17,9 @@
     </div>
   </div>
 </template>
+
+<script setup>
+useHead({
+  title: 'Border Gateway Endpoint'
+})
+</script>
