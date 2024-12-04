@@ -16,5 +16,5 @@
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.8.0"
   },
-  "packageManager": "yarn@3.8.5"
+  "packageManager": "yarn@3.8.7"
 }
