@@ -3044,12 +3044,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.17.3":
-  version: 18.19.45
-  resolution: "@types/node@npm:18.19.45"
+"@types/node@npm:^22.0.0":
+  version: 22.18.11
+  resolution: "@types/node@npm:22.18.11"
   dependencies:
-    undici-types: ~5.26.4
-  checksum: b82006827911919b1f97d06f10a373c157988442337a0f35e355f351ec815fdcf5de4a68e33206c35379416a65aea7d0c34f435f42d55a0935f9aac3841f1cfe
+    undici-types: ~6.21.0
+  checksum: ba15911228dc021dd3e97f29b6205988e5455e9bd1b8117aaf9f0860b1d5b9fb200f14bd53f6aff62748a382f23bed282e8f9e7318a009e56d5e93f07726eb5c
   languageName: node
   linkType: hard
 
@@ -8527,7 +8527,7 @@ __metadata:
   dependencies:
     "@nuxt/devtools": latest
     "@nuxtjs/tailwindcss": ^6.8.0
-    "@types/node": ^18.17.3
+    "@types/node": ^22.0.0
     nuxt: ^3.6.5
   languageName: unknown
   linkType: soft
@@ -11048,17 +11048,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~5.26.4":
-  version: 5.26.5
-  resolution: "undici-types@npm:5.26.5"
-  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
-  languageName: node
-  linkType: hard
-
 "undici-types@npm:~6.19.2":
   version: 6.19.6
   resolution: "undici-types@npm:6.19.6"
   checksum: e66df2447b6d93a48b0605a54269d8c3f228edcd1e9563229f6de37e48ed53b3e49b4bc965733643ed9717e0e0fa1ee664c929db91d787c9f488fb3f9e17c533
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.21.0":
+  version: 6.21.0
+  resolution: "undici-types@npm:6.21.0"
+  checksum: 46331c7d6016bf85b3e8f20c159d62f5ae471aba1eb3dc52fff35a0259d58dcc7d592d4cc4f00c5f9243fa738a11cfa48bd20203040d4a9e6bc25e807fab7ab3
   languageName: node
   linkType: hard
 
