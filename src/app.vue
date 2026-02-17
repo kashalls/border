@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col flex-wrap items-center w-full min-h-full h-screen justify-center bg-gradient-to-b from-black to-gray-900">
     <header class="absolute top-0 p-6 items-center  flex">
-      <img class="h-9" src="~/public/logo.svg" />
+      <img class="h-9" src="/logo.svg" />
     </header>
     <div class="flex flex-col items-center text-center w-11/12 text-center rounded-2xl border-1 bg-gray-800 p-8 max-w-prose">
       <h1 class="font-semibold text-2xl mb-2.5 text-red-500 font-mono">
